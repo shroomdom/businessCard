@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         String url = "https://www.facebook.com/loveLunaCatz/";
         Uri website = Uri.parse(url);
         Intent webViewIntent = new Intent(Intent.ACTION_VIEW, website);
-        startActivity(webViewIntent);
+        view.getContext().startActivity(webViewIntent);
     }
 
     //Takes user to Instagram website upon icon click.
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         String url = "https://www.instagram.com/lovelunacatz/";
         Uri website = Uri.parse(url);
         Intent webViewIntent = new Intent(Intent.ACTION_VIEW, website);
-        startActivity(webViewIntent);
+        view.getContext().startActivity(webViewIntent);
     }
 
     //Takes user to Twitter website upon icon click.
@@ -35,6 +35,6 @@ public class MainActivity extends AppCompatActivity {
         String url = "https://twitter.com/lovelunacatz";
         Uri website = Uri.parse(url);
         Intent webViewIntent = new Intent(Intent.ACTION_VIEW, website);
-        startActivity(webViewIntent);
+        view.getContext().startActivity(webViewIntent);
     }
 }
