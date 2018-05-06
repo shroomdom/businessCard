@@ -13,7 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+ 
+    //Takes user to Facebook website upon icon click.
     public void goToFB (View view) {
         String url = "https://www.facebook.com/loveLunaCatz/";
         Uri website = Uri.parse(url);
