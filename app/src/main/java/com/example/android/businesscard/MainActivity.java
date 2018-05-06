@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(webViewIntent);
     }
 
+    //Takes user to Instagram website upon icon click.
     public void goToInsta (View view) {
         String url = "https://www.instagram.com/lovelunacatz/";
         Uri website = Uri.parse(url);
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(webViewIntent);
     }
 
+    //Takes user to Twitter website upon icon click.
     public void goToTwitter (View view) {
         String url = "https://twitter.com/lovelunacatz";
         Uri website = Uri.parse(url);
